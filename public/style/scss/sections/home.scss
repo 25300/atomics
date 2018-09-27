@@ -1,0 +1,24 @@
+@import "../mixins/typography";
+
+.home {
+    background: url("img/background.png") center center no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+    &__header {
+        background-color: rgba(132, 132, 132, .4) ;
+        padding: 0.5rem 1.5rem;
+        position: absolute;
+        top: 35%;
+        transform: translateY(-50%);
+        width: 90%;
+    }
+
+    &__title {
+        @include title;
+    }
+
+    &__subtitle {
+        @include subtitle;
+    }
+}

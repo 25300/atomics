@@ -1,0 +1,13 @@
+$font: Avenir, sans-serif;
+
+@mixin title {
+    font-family: $font;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+
+@mixin subtitle {
+    font-family: $font;
+    font-size: 15px;
+    font-weight: 200;
+}
